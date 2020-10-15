@@ -1,0 +1,135 @@
+/* 1 */
+#body {
+  background-color: lightblue;
+}
+
+.paragraph {
+  font-size: 90%;
+  color: Green;
+}
+
+li {
+  font-size: 110%
+}
+
+.heading {
+	text-decoration: underline;
+	font-weight: bold;
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+}
+
+.heading_2 {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+.heading_4 {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+/* unvisited link */
+.unordered a:link {
+  color: red;
+}
+
+/* visited link */
+.unordered a:visited {
+  color: green;
+}
+
+/* mouse over link */
+.unordered a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+.unordered a:active {
+  color: blue;
+}
+
+
+
+
+
+
+/* 2 */
+
+.unordered {
+	color: Orange;
+	
+}
+
+.ordered {
+	color: Brown;
+}
+
+
+
+
+
+/*  3  */
+/* https://www.w3schools.com/css/default.asp is the reference website */
+
+
+
+
+
+/*  4  */
+.unordered > li::before{
+	content: '\f042 ';
+	font-family: FontAwesome;
+	margin-right: 10px;
+	margin-left: -25px;
+}
+
+
+
+
+
+/*  5  */
+.ordered {
+  list-style-type: upper-roman;
+}
+
+
+
+
+
+/*  6  */
+/* Done in the HTML Code */
+
+
+
+
+
+/*  7  */
+span {
+	font-style: italic;
+}
+
+
+
+
+
+/*  8  */
+span:last-child {
+	text-decoration: underline;
+}
+
+
+
+
+
+/*  9  */
+.special {
+	font-style: normal;
+	color: Red;
+}
